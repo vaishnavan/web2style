@@ -1,0 +1,162 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStyle</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div id="mySidenav" class="sidenav">
+        <p style="color: rgb(204, 0, 255);; cursor: pointer;" href="javascript:void(0)" class="closebtn"
+            onclick="closeNav()">&times;</p>
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Design</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="nav_span">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span><span class="logo"><span
+                style="font-size: 25px;">Web</span><sub>2</sub>Style.</span>
+    </div>
+
+    <!-- banner -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="https://static.technians.com/wp-content/uploads/2020/02/Guidelines-for-images-of-website-desig-title.jpg?x28918"
+                style="width:100%">
+            <div class="text">
+                <h1>Welcome<sub>2</sub><span class="type"></span></h1><br>
+                <a>Explore</a>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://www.hellowebmaster.com/wp-content/uploads/Web-Design-Company.jpg" style="width:100%">
+            <div class="text">
+                <p>Lets bulid your future, In your own Style</p><br>
+                <a class="btn_design">Design</a>
+            </div>
+
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <div id="home_body" class="home_body">
+        <!-- scroller -->
+        <div class="design">
+            <h3>
+                <marquee>We make your design to next level</marquee>
+            </h3>
+        </div>
+
+        <div class="main_content">
+            <div class="content">
+                <h3>
+                    Why i'M here!
+                </h3>
+                <hr>
+                <div class="main_card">
+                    <p>Do you want to empower your business digitally?</p>
+                    <p>Do you want to make your Photo more attractive?</p>
+                    <p>Do you want to make advertisement in low cost?</p>
+                    <p>We are there to help you out form these.</p>
+                </div><br><br>
+            </div>
+
+            <div class="content">
+                <h3>
+                    About Creative Thinking
+                </h3>
+                <hr>
+                <div class="main_card">
+                    <p>A way of looking at problems or situations from a fresh perspective that suggests unorthodox solutions (which may look unsettling at first). Creative thinking can be stimulated both by an unstructured process such as brainstorming, and by a structured process such as lateral thinking.</p>
+                </div>
+            </div>
+
+            
+        </div>
+
+
+        <div class="service">
+            <h2>Technology</h2>
+        </div>
+        
+
+        <div class="card_container">
+            <div class="card">
+                <img src="https://cdn.mos.cms.futurecdn.net/CT9xCjqrhnPD4ivB6B8Hqe.jpg" />
+                <div class="card_content">
+                    <h3>Web Design</h3>
+                    <p>Different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software</p>
+                </div>
+                <div class="btn">
+                    <a>read more</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://sitegalleria.com/wp-content/uploads/2019/08/Web-Development-Company-Bangalore.jpeg    " />
+                <div class="card_content">
+                    <h3>Web Development</h3>
+                    <p>Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience</p>
+                    <div class="btn">
+                        <a>read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://worldinfo.tn/wp-content/uploads/2020/05/maxresdefault.jpg" />
+                <div class="card_content">
+                    <h3>Photoshop</h3>
+                    <p>One of the biggest advantages is the fact that a person can easily make small edits on photos that would otherwise be difficult. It helps to change the skin tone, create a high resolution copy of the photo.</p>
+                    <div class="btn">
+                        <a>read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://designshack.net/wp-content/uploads/logotentips-01.jpg" />
+                <div class="card_content">
+                    <h3>Logo Design</h3>
+                    <p>A recognizable graphic design element, often including a name, symbol or trademark, representing an organization or product.</p>
+                    <div class="btn">
+                        <a>read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/typed.js"></script>
+
+    <script>
+        var typed = new Typed('.type', {
+            strings: [
+                "Web2Style",
+                "Creative"
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
