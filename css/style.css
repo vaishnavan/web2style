@@ -296,7 +296,7 @@ body {
   }
   @media(min-width:650px){
     .main_content .content .main_card{
-      width: 650px;
+      width: 600px;
       height: 300px;
     }
   }
@@ -313,12 +313,13 @@ body {
 .card_container{
   display: flex;
   justify-content: space-evenly;
-  padding:20px 50px;
-  margin: 20px 10px;
+  margin: 30px 60px;
   
 }
 .card{
   box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  width: 270px;
+  max-height: 460px;
 }
 
 .card img{
